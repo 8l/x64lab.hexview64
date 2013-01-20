@@ -24,7 +24,6 @@
 //#pragma comment(linker, "/DELAYLOAD:uxtheme.dll")
 
 
-
 static HexView * GetHexView(HWND hwndHexView)
 {
 	return (HexView *)GetWindowLongPtr(hwndHexView, 0);
